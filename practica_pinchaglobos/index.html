@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de 6 imagenes</title>
+
+    <style>
+        .galeria{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 15px;
+            max-width: 700px;
+            margin: 30px auto;
+        }
+        .galeria img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius:10px ;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="galeria">
+
+        <button><img src="globo rojo.avif" alt="imagen1"></button>
+        <button><img src="globo rojo.avif" alt="imagen2"></button>
+        <button><img src="globo rojo.avif" alt="imagen3"></button>
+        <button><img src="globo rojo.avif" alt="imagen4"></button>
+        <button><img src="globo rojo.avif" alt="imagen5"></button>
+        <button><img src="globo rojo.avif" alt="imagen6"></button>
+       
+        
+
+    </div>
+
+
+
+<script src="script.js"></script>
+    
+</body>
+</html>
